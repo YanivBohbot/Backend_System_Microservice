@@ -14,7 +14,7 @@ consumer = KafkaConsumer(
 if __name__ == '__main__':
     total_orders_count = 0
     total_revenue = 0.0
-    logging.info("started order analytics ...")
+    logging.info("started order analytics .***..")
     while True:
         for message in consumer:
             logging.info("Updating analytics service ...")
